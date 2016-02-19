@@ -4,12 +4,15 @@
   "description": "fs.readFile with promise",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/"
   },
   "author": "kmsheng <kmsh3ng@gmail.com> (https://kmsheng.com)",
   "license": "ISC",
   "dependencies": {
     "bufferhelper": "^0.2.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  }
 }
